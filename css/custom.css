@@ -1,0 +1,15 @@
+
+.navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+}
+
+.jumbotron {
+  background-image: url('https://c1.staticflickr.com/1/971/27022184477_47eb11f821_o.jpg');
+  background-size: cover;
+}
+
+button.alternatives {
+  background:none;
+  border: none;
+}
