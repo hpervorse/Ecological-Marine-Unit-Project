@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flower Garden Banks National Marine Sanctuary Project</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand order-1 mr-0" href="https://www.linkedin.com/in/hayleigh-pervorse/" target="_blank">Presented by Hayleigh Pervorse</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#about">About</a>
+              <a class="nav-item nav-link" href="#maps">Maps</a>
+              <a class="nav-item nav-link" href="#future">Future Work</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-info text-white">
+      <div class="container text-sm-center pt-5">
+        <h1 class="display-2">Marine Sanctuary Project</h1>
+        <p class="lead">A project exploring Flower Garden Banks National Marine Sanctuary's Expansion Goals</p>
+        <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact">Contact</button>
+          <a class="btn btn-light btn-lg" href="#maps">See Maps</a>
+        </div>
+      </div>
+    </div>
+    <!-- /jumbotron -->
+
+    <div class="container pt-4">
+      <!--   about   -->
+      <div id="about" class="row">
+        <div class="col-lg order-lg-2">
+          <h3 class="mb-4">About The Sanctuary</h3>
+          <img class= "mb-4 img-fluid rounded d-none d-sm-block" src="img/about.jpg" alt="lionFish">
+          <p>Working with Flower Garden Banks National Marine Sanctuary (FGNMS) this project performed seafloor
+             analysis of the seafloor and water column to identify areas to protect.</p>
+          <p>The sanctuary is one of 14 federally designated underwater areas protected
+             by NOAA's Office of National Marine Sanctuaries. The Draft Environmental Impact
+             Statement has been submitted and this project aims to identify the ecological
+             significance of the proposal areas using various analysis methods.
+          </p> <!-- cite FGBNMS site -->
+        </div>
+        <div class="col-lg order-lg-1">
+          <h3 class="mb-4">Project Details</h3>
+          <p>This project uses data from USGS and the sanctuary to perform seafloor analysis.
+            Idenfitying groups of similar seafloor characteristics (slope, benthic position index, terrain ruggedness)
+            maps have been made to show areas that have the charcteristics the sanctuary is aiming to protect.
+          </p>
+          <p>Using ArcGIS Pro geoprocessing tools and various functionality in the software this project created
+            maps and outputs useful to the sanctuary in their expansion goals.
+          </p>
+          <video width=100% controls>
+            <source src="stetsonsandbarsharks960x540.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div> <!-- /about -->
+
+      <!-- Maps -->
+      <h1 id= "maps" class="display-4 text-center my-5 text-muted">Maps</h1>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/LocatorMIPMargins.jpg" alt="Vivianne">
+            <div class="card-body">
+              <h5 class="card-title">Project Study Area</h5>
+              <p class="card-text">The focus of this project is the third alternative provided
+              in the sanctuaries Draft Environmental Impact Statement. This map can be used to understand the location of the study area.
+            To view a map showing the other four alternatives proposed by FGBNMS click
+            <a href=alternatives.html target="_blank" class="link">here!</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/tempImg.png" alt="webMap">
+            <div class="card-body">
+              <h5 class="card-title">Explore The Area</h5>
+              <p class="card-text">Click on the image to open the web map!
+              Here you can explore the area, view underwater ROV images
+              and discover how much this area has to offer!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/tempImg.png" alt="StoryMap">
+            <div class="card-body">
+              <h5 class="card-title">FGBNMS StoryMap</h5>
+              <p class="card-text">Click on the image to open the story map
+              and walk through pieces of the project and explore the area.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/AppendixCluster1.jpg" alt="ThumnailofCluster">
+            <div class="card-body">
+              <h5 class="card-title">Clustered Analysis</h5>
+              <p class="card-text">After performing seafloor analysis a clustering was performed to identify
+                similar areas in the study area and define the attributes. To see the other areas and maps click here <a href=clustered.html target="_blank" class="link">here!</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/BenthicGeyer.jpg" alt="SeaFloorMap">
+            <div class="card-body">
+              <h5 class="card-title">Seafloor Analysis</h5>
+              <p class="card-text">The proposed boundaries include 11 banks (8 new additions). Click on the image above
+              to view the analysis performed for each bank.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/Poster.jpg" alt="Json">
+            <div class="card-body">
+              <h5 class="card-title">Project Poster</h5>
+              <p class="card-text">This project will be presented at the Esri User Conference July 2018 along with this poster!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /speakers -->
+
+      <!-- Future -->
+      <h1 id="future" class="display-4 text-center my-5 text-muted">Marine Sanctuaries Are Our Future</h1>
+      <div>
+        <video width=100% controls poster="img/VideoThumbnail.gif">
+          <source src="nomination-540p.mp4" type="video/mp4">
+        <video>
+      </div>
+
+      <!-- /Future Work -->
+
+      <!-- callout button-->
+      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#contact">Contact Now</button>
+      <!-- /callout button -->
+
+    <!-- signup form -->
+    <hr>
+    <div class="row py-4 text-muted">
+      <div class="col-md col-xl-5">
+        <p><strong>About Author</strong></p>
+        <p>Hayleigh is a student at the University of Redlands pursuing her Master's Degree in Geographic Information Sceince and working with FGBNMS. </p>
+      </div>
+
+        </div>
+      </div>
+    </div>
+    <hr><!-- /signup form -->
+
+      <!-- footer -->
+      <div class="row py-3">
+        <div class="col-md-7">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://flowergarden.noaa.gov/management/expansiondeis.html" target="_blank">Learn More</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/hayleigh-pervorse/" target="_blank">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-outline-secondary">Related Sites</button>
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="https://flowergarden.noaa.gov/" target="_blank">FGBNMS</a>
+                  <a class="dropdown-item" href="http://www.noaa.gov/" target="_blank">NOAA</a>
+                  <a class="dropdown-item" href="https://sanctuaries.noaa.gov/" target="_blank">National Marine Sanctuaries</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md text-md-right">
+          <small>&copy; 2018</small>
+        </div>
+      </div>
+      <!-- /footer -->
+
+    </div> <!-- /.container -->
+
+    <!--=====================================
+     FORM MODAL
+    =====================================-->
+
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact form" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-info text-white">
+            <h5 class="modal-title" id="exampleModalLabel">Contact us with questions</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <!-- contact form -->
+            <form data-toggle="validator" role="form" id="myForm">
+              <div id="flashMessage">
+                  Your question/comment has been sent!
+              </div>
+              <div class="form-group">
+                <label for="inputName" class="control-label">Name</label>
+                <input type="text" name="name" class="form-control" id="inputName" placeholder="John Smith" required>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail" class="control-label">Email</label>
+                <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email" data-error="Please enter valid email address" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <h5 class="mb-4">Which Topic Interests You Most?</h5>
+                <div class="radio">
+                  <label><input type="radio" name="optradio" value="education"> Education</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio" value="climateChange"> Climate Change</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio" value="marineLife"> Marine Life</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio" value="environmentalJustice"> Environmental Justice</label>
+                </div>
+                <!-- <div class="form-check">
+                  <label class="custom-control custom checkbox">
+                    <input type="checkbox" name= "interest" class="custom-control-input interests">
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Education</span>
+                  </label>
+                </div> -->
+                <!-- <div class="form-check">
+                  <label class="custom-control custom checkbox">
+                    <input type="checkbox" name="interest" class="custom-control-input interests">
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Climate Change</span>
+                  </label>
+                </div> -->
+                <!-- <div class="form-check">
+                  <label class="custom-control custom checkbox">
+                    <input type="checkbox" name="interest" id="interest" class="custom-control-input interests" >
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Marine Life</span>
+                  </label>
+                </div> -->
+                <!-- <div class="form-check">
+                  <label class="custom-control custom checkbox">
+                    <input type="checkbox" name="interest" id= "interest" class="custom-control-input interests" >
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-description">Environmental Justice</span>
+                  </label>
+                </div> -->
+              </div>
+              <hr class="mb-4">
+              <h5 class="mb-4">Submit your comments or questions below</h5>
+              <div class="form-group">
+
+                <textarea id= "questionComment" rows="5" cols="50"></textarea>
+              </div>
+              <div class="form-group">
+                <button  type="submit" id= "submitbtn" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+            <!-- /registration form -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/website.js"></script>
+  </body>
+</html>

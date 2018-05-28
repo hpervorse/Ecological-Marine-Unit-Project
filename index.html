@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
@@ -34,9 +35,9 @@
     <div class="jumbotron jumbotron-fluid bg-info text-white">
       <div class="container text-sm-center pt-5">
         <h1 class="display-2">Marine Sanctuary Project</h1>
-        <p class="lead">A project exploring Flower Garden Banks National Marine Sanctuary with goals to increase sanctuary boundaries.</p>
+        <p class="lead">A project exploring Flower Garden Banks National Marine Sanctuary's Expansion Goals</p>
         <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
-          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Contact</button>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact">Contact</button>
           <a class="btn btn-light btn-lg" href="#maps">See Maps</a>
         </div>
       </div>
@@ -48,7 +49,7 @@
       <div id="about" class="row">
         <div class="col-lg order-lg-2">
           <h3 class="mb-4">About The Sanctuary</h3>
-          <img class= "mb-4 img-fluid rounded d-none d-sm-block" src="https://sanctuaries.noaa.gov/news/may15/lionfish-header.jpg" alt="lionFish">
+          <img class= "mb-4 img-fluid rounded d-none d-sm-block" src="img/about.jpg" alt="lionFish">
           <p>Working with Flower Garden Banks National Marine Sanctuary (FGNMS) this project performed seafloor
              analysis of the seafloor and water column to identify areas to protect.</p>
           <p>The sanctuary is one of 14 federally designated underwater areas protected
@@ -66,18 +67,9 @@
           <p>Using ArcGIS Pro geoprocessing tools and various functionality in the software this project created
             maps and outputs useful to the sanctuary in their expansion goals.
           </p>
-          <p>To read more details on the project click here </p> <!-- insert link to inspire website -->
-        </div>
-        <div class="col-lg order-lg-3">
-          <h3 class="mb-4">Project Goals</h3>
-          <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action"><strong>Goal1</strong>: Description</a>
-            <a href="#" class="list-group-item list-group-item-action"><strong>Goal2</strong>: Description</a>
-            <a href="#" class="list-group-item list-group-item-action"><strong>Goal3</strong>: Description</a>
-            <a href="#" class="list-group-item list-group-item-action"><strong>Goal4</strong>: Description</a>
-            <a href="#" class="list-group-item list-group-item-action"><strong>Goal5</strong>: Description</a>
-            <a href="#" class="list-group-item list-group-item-action"><strong>Goal6</strong>: Description</a>
-          </div>
+          <video width=100% controls>
+            <source src="stetsonsandbarsharks960x540.mp4" type="video/mp4">
+          </video>
         </div>
       </div> <!-- /about -->
 
@@ -99,130 +91,83 @@
 
         <div class="col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/nodestradamus.png" alt="NodeStradamus">
+            <img class="card-img-top" src="img/tempImg.png" alt="webMap">
             <div class="card-body">
-              <h5 class="card-title">NodeStradamus</h5>
-              <p class="card-text">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
+              <h5 class="card-title">Explore The Area</h5>
+              <p class="card-text">Click on the image to open the web map!
+              Here you can explore the area, view underwater ROV images
+              and discover how much this area has to offer!</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/robbie.png" alt="Robbie">
+            <img class="card-img-top" src="img/tempImg.png" alt="StoryMap">
             <div class="card-body">
-              <h5 class="card-title">Robbie Redux</h5>
-              <p class="card-text">Robbie is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing barriers to learning code</p>
+              <h5 class="card-title">FGBNMS StoryMap</h5>
+              <p class="card-text">Click on the image to open the story map
+              and walk through pieces of the project and explore the area.</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/ecma.png" alt="Ecma">
+            <img class="card-img-top" src="img/AppendixCluster1.jpg" alt="ThumnailofCluster">
             <div class="card-body">
-              <h5 class="card-title">Ecma Scriptnstuff</h5>
-              <p class="card-text">Ecma found her passion for programming and teaching over 15 years ago. She is excited to introduce you to all of the wonders of JavaScript.</p>
+              <h5 class="card-title">Clustered Analysis</h5>
+              <p class="card-text">After performing seafloor analysis a clustering was performed to identify
+                similar areas in the study area and define the attributes. To see the other areas and maps click here <a href=clustered.html target="_blank">here!</a></p>
             </div>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/jay.png" alt="Jay">
+            <img class="card-img-top" src="img/BenthicGeyer.jpg" alt="SeaFloorMap">
             <div class="card-body">
-              <h5 class="card-title">Jay Query</h5>
-              <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
+              <h5 class="card-title">Seafloor Analysis</h5>
+              <p class="card-text">The proposed boundaries include 11 banks (8 new additions). Click on the image above
+              to view the analysis performed for each bank.</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/json.png" alt="Json">
+            <img class="card-img-top" src="img/Poster.jpg" alt="Json">
             <div class="card-body">
-              <h5 class="card-title">Json Babel</h5>
-              <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
+              <h5 class="card-title">Project Poster</h5>
+              <p class="card-text">This project will be presented at the Esri User Conference July 2018 along with this poster!</p>
             </div>
           </div>
         </div>
       </div>
       <!-- /speakers -->
 
-      <!-- Future Work -->
-      <h1 id="future" class="display-4 text-center my-5 text-muted">Future Work</h1>
+      <!-- Future -->
+      <h1 id="future" class="display-4 text-center my-5 text-muted">Marine Sanctuaries Are Our Future</h1>
+      <div>
+        <video width=100% controls poster="img/VideoThumbnail.gif">
+          <source src="nomination-540p.mp4" type="video/mp4">
+        <video>
+      </div>
 
-      <ul class="list-group">
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 blass="mb-1">Keynote: Internet of Things</h5>
-            <span class="badge badge-pill badge-info p-2">9:00am</span>
-          </div>
-          <p class="mb-1">NodeStradamus</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 blass="mb-1">React Basics</h5>
-            <span class="badge badge-pill badge-info p-2">10:00am</span>
-          </div>
-          <p class="mb-1">Vivianne McVue</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 blass="mb-1">Hey, Mongo!</h5>
-            <span class="badge badge-pill badge-info p-2">11:00am</span>
-          </div>
-          <p class="mb-1">Jay Query</p>
-        </li>
-        <li class="list-group-item list-group-item-success">
-          <div class="d-flex justify-content-between">
-            <h5 blass="mb-1">Lunch</h5>
-            <span class="badge badge-pill badge-info p-2">12:00pm</span>
-          </div>
-          <p class="mb-1">Free pizza for everyone!</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 class="mb-1">Introducing ES2015</h5>
-            <span class="badge badge-pill badge-info p-2">1:00pm</span>
-          </div>
-          <p class="mb-1">Ecma Scriptnstuff</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 class="mb-1">Getting Started With Redux</h5>
-            <span class="badge badge-pill badge-info p-2">2:00pm</span>
-          </div>
-          <p class="mb-1">Robbie Redux</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 class="mb-1">What's Babel?</h5>
-            <span class="badge badge-pill badge-info p-2">3:00pm</span>
-          </div>
-          <p class="mb-1">Json Babel</p>
-        </li>
-      </ul>
       <!-- /Future Work -->
 
       <!-- callout button-->
-      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
+      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#contact">Contact Now</button>
       <!-- /callout button -->
 
     <!-- signup form -->
     <hr>
     <div class="row py-4 text-muted">
       <div class="col-md col-xl-5">
-        <p><strong>About Treehouse</strong></p>
-        <p>Treehouse brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
+        <p><strong>About Author</strong></p>
+        <p>Hayleigh is a student at the University of Redlands pursuing her Master's Degree in Geographic Information Sceince and working with FGBNMS. </p>
       </div>
-      <div class="col-md col-xl-5 ml-auto">
-        <p><strong>Stay up-to-date on Full Stack Conf</strong></p>
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Email">
-          <span class="input-group-btn">
-            <button class="btn btn-primary" type="button">Sign up</button>
-          </span>
+
         </div>
       </div>
     </div>
@@ -233,29 +178,28 @@
         <div class="col-md-7">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Community</a>
+              <a class="nav-link" href="https://flowergarden.noaa.gov/management/expansiondeis.html" target="_blank">Learn More</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tracks</a>
+              <a class="nav-link" href="https://www.linkedin.com/in/hayleigh-pervorse/" target="_blank">LinkedIn</a>
             </li>
             <li class="nav-item">
               <div class="btn-group dropup">
-                <button type="button" class="btn btn-outline-secondary">Other Confs</button>
+                <button type="button" class="btn btn-outline-secondary">Related Sites</button>
                 <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span class="sr-only">Toggle Dropdown</span>
                 </button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">CSS Conf</a>
-                  <a class="dropdown-item" href="#">Python Conf</a>
-                  <a class="dropdown-item" href="#">Java Conf</a>
-                  <a class="dropdown-item" href="#">Swift Conf</a>
+                  <a class="dropdown-item" href="https://flowergarden.noaa.gov/" target="_blank">FGBNMS</a>
+                  <a class="dropdown-item" href="http://www.noaa.gov/" target="_blank">NOAA</a>
+                  <a class="dropdown-item" href="https://sanctuaries.noaa.gov/" target="_blank">National Marine Sanctuaries</a>
                 </div>
               </div>
             </li>
           </ul>
         </div>
         <div class="col-md text-md-right">
-          <small>&copy; 2017 Full Stack Conf &amp; Treehouse</small>
+          <small>&copy; 2018</small>
         </div>
       </div>
       <!-- /footer -->
@@ -266,45 +210,28 @@
      FORM MODAL
     =====================================-->
 
-    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact form" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header bg-info text-white">
-            <h5 class="modal-title" id="exampleModalLabel">Register for Full Stack Conf</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Contact us with questions</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
 
-            <!-- registration form -->
-            <form>
-              <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                <strong>Hurry!</strong> Early bird registration ends in two days.
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
+            <!-- contact form -->
+            <form data-toggle="validator" role="form">
               <h5 class="mb-4">Basic Info</h5>
               <div class="form-group">
                 <label class="form-control-label" for="name">Name</label>
-                <input type="text" class="form-control" id="name">
+                <input type="text" class="form-control" id="name" required>
               </div>
               <div class="form-group">
                 <label class="form-control-label" for="email">Email</label>
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" id="email" required>
               </div>
-              <div class="form-group">
-                <label for="role">Job Role:</label>
-                <select class="custom- select form-control" id="role">
-                  <option value="full stack js developer">Full Stack JavaScript Developer</option>
-                  <option value="front end developer">Front End Developer</option>
-                  <option value="back end developer">Back End Developer</option>
-                  <option value="designer">Designer</option>
-                  <option value="student">Student</option>
-                </select>
-              </div>
-
               <hr class="my-4">
               <h5 class="mb-4">Which Topics Interest You Most?</h5>
 
@@ -312,91 +239,53 @@
                 <label class="custom-control custom checkbox">
                   <input type="checkbox" class="custom-control-input">
                   <span class="custom-control-indicator"></span>
-                  <span class="custom-control-description">JavaScript Frameworks</span>
+                  <span class="custom-control-description">Education</span>
                 </label>
               </div>
               <div class="form-check">
                 <label class="custom-control custom checkbox">
                   <input type="checkbox" class="custom-control-input">
                   <span class="custom-control-indicator"></span>
-                  <span class="custom-control-description">JavaScript Libraries</span>
+                  <span class="custom-control-description">Climate Change</span>
                 </label>
               </div>
               <div class="form-check">
                 <label class="custom-control custom checkbox">
                   <input type="checkbox" class="custom-control-input">
                   <span class="custom-control-indicator"></span>
-                  <span class="custom-control-description">Node.js</span>
+                  <span class="custom-control-description">Conservation</span>
                 </label>
               </div>
               <div class="form-check">
                 <label class="custom-control custom checkbox">
                   <input type="checkbox" class="custom-control-input">
                   <span class="custom-control-indicator"></span>
-                  <span class="custom-control-description">Build Tools</span>
+                  <span class="custom-control-description">Marine Life</span>
                 </label>
               </div>
               <div class="form-check">
                 <label class="custom-control custom checkbox">
                   <input type="checkbox" class="custom-control-input">
                   <span class="custom-control-indicator"></span>
-                  <span class="custom-control-description">ES2015</span>
+                  <span class="custom-control-description">Environmental Justice</span>
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="custom-control custom checkbox">
+                  <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">Localism</span>
                 </label>
               </div>
 
               <hr class="mb-4">
-              <h5 class="mb-4">Payment Info</h5>
+              <h5 class="mb-4">Submit your comments and questions below</h5>
 
-              <div class="form-row">
-                <div class="col-lg-6 form-group">
-                  <label for="cc-num">Card Number:</label>
-                  <input class="form-control" id="cc-num" type="text">
-                </div>
-
-                <div class="col-lg form-group">
-                  <label for="zip">Zip Code:</label>
-                  <input class="form-control" id="zip" type="text">
-                </div>
-
-                <div class="col-lg form-group">
-                  <label for="cvv">CVV:</label>
-                  <input class="form-control" id="cvv" type="text">
-                </div>
-              </div>
-
-              <div class="form-row">
-                <label class="col-lg-12">Expiration Date:</label>
-
-                <div class="form-group col-lg-8">
-                  <select class="custom-select form-control" id="exp-month">
-                    <option value="1">1 - January</option>
-                    <option value="2">2 - February</option>
-                    <option value="3">3 - March</option>
-                    <option value="4">4 - April</option>
-                    <option value="5">5 - May</option>
-                    <option value="6">6 - June</option>
-                    <option value="7">7 - July</option>
-                    <option value="8">8 - August</option>
-                    <option value="9">9 - September</option>
-                    <option value="10">10 - October</option>
-                    <option value="11">11 - November</option>
-                    <option value="12">12 - December</option>
-                  </select>
-                </div>
-
-                <div class="form-group col-lg">
-                  <select class="custom-select form-control" id="exp-year">
-                    <option value="2016">2016</option>
-                    <option value="2017">2017</option>
-                    <option value="2018">2018</option>
-                    <option value="2019">2019</option>
-                    <option value="2020">2020</option>
-                  </select>
-                </div>
+                <textarea rows="5" cols="60"></textarea>
               </div>
 
               <hr class="mb-4">
-              <button type="submit" class="btn btn-primary btn-lg">Register</button>
+              <button type="submit" class="btn btn-primary btn-lg">Contact</button>
           </form>
             <!-- /registration form -->
 
