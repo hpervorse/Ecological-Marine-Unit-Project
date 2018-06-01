@@ -19,7 +19,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
           <div class="navbar-nav">
               <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link" href="#about">About</a>
@@ -34,8 +34,8 @@
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid bg-info text-white">
       <div class="container text-sm-center pt-5">
-        <h1 class="display-2">Marine Sanctuary Project</h1>
-        <p class="lead">A project exploring Flower Garden Banks National Marine Sanctuary's Expansion Goals</p>
+        <h1 class="display-2 titletext">Marine Sanctuary Project</h1>
+        <p class="lead titletext2">A project exploring Flower Garden Banks National Marine Sanctuary's Expansion Goals</p>
         <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact">Contact</button>
           <a class="btn btn-light btn-lg" href="#maps">See Maps</a>
@@ -84,14 +84,16 @@
               <p class="card-text">The focus of this project is the third alternative provided
               in the sanctuaries Draft Environmental Impact Statement. This map can be used to understand the location of the study area.
             To view a map showing the other four alternatives proposed by FGBNMS click
-            <a href=alternatives.html target="_blank" class="link">here!</a></p>
+            <a id="altpop" src="img/Alt1_5.jpg" onclick="return popup('img/Alt1_5.jpg')">here!</a>
+            </p>
             </div>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/tempImg.png" alt="webMap">
+            <a href="http://univredlands.maps.arcgis.com/home/webmap/viewer.html?webmap=a42e37b702ad4675b4bf74f931f8d1a1" target="_blank">
+            <img class="card-img-top" src="img/WebMapThumb.png" alt="webMap"> </a>
             <div class="card-body">
               <h5 class="card-title">Explore The Area</h5>
               <p class="card-text">Click on the image to open the web map!
@@ -103,7 +105,8 @@
 
         <div class="col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img class="card-img-top" src="img/tempImg.png" alt="StoryMap">
+            <a href="http://univredlands.maps.arcgis.com/apps/Shortlist/index.html?appid=65b2fc0d15d7441d8b34a03508f6ca2a" target="_blank">
+            <img class="card-img-top" src="img/StoryMapThumb.png" alt="StoryMap"></a>
             <div class="card-body">
               <h5 class="card-title">FGBNMS StoryMap</h5>
               <p class="card-text">Click on the image to open the story map
@@ -118,7 +121,7 @@
             <div class="card-body">
               <h5 class="card-title">Clustered Analysis</h5>
               <p class="card-text">After performing seafloor analysis a clustering was performed to identify
-                similar areas in the study area and define the attributes. To see the other areas and maps click here <a href=clustered.html target="_blank" class="link">here!</a></p>
+                similar areas in the study area and define the attributes. </p>
             </div>
           </div>
         </div>
@@ -128,8 +131,7 @@
             <img class="card-img-top" src="img/BenthicGeyer.jpg" alt="SeaFloorMap">
             <div class="card-body">
               <h5 class="card-title">Seafloor Analysis</h5>
-              <p class="card-text">The proposed boundaries include 11 banks (8 new additions). Click on the image above
-              to view the analysis performed for each bank.</p>
+              <p class="card-text">The proposed boundaries include 11 banks (8 new additions). This map is just one example of the analysis performed on a single bank.</p>
             </div>
           </div>
         </div>
@@ -160,7 +162,7 @@
       <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#contact">Contact Now</button>
       <!-- /callout button -->
 
-    <!-- signup form -->
+
     <hr>
     <div class="row py-4 text-muted">
       <div class="col-md col-xl-5">
@@ -210,11 +212,11 @@
      FORM MODAL
     =====================================-->
 
-    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact form" aria-hidden="true">
+    <div class="modal fade formmobile" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact form" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header bg-info text-white">
-            <h5 class="modal-title" id="exampleModalLabel">Contact us with questions</h5>
+            <h5 class="modal-title formmobile" id="exampleModalLabel">Contact us with questions</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -238,16 +240,16 @@
               <div class="form-group">
                 <h5 class="mb-4">Which Topic Interests You Most?</h5>
                 <div class="radio">
-                  <label><input type="radio" name="optradio" value="education"> Education</label>
+                  <label><input type="radio" name="optradio" value="education" required> Education</label>
                 </div>
                 <div class="radio">
-                  <label><input type="radio" name="optradio" value="climateChange"> Climate Change</label>
+                  <label><input type="radio" name="optradio" value="climateChange" required> Climate Change</label>
                 </div>
                 <div class="radio">
-                  <label><input type="radio" name="optradio" value="marineLife"> Marine Life</label>
+                  <label><input type="radio" name="optradio" value="marineLife" required> Marine Life</label>
                 </div>
                 <div class="radio">
-                  <label><input type="radio" name="optradio" value="environmentalJustice"> Environmental Justice</label>
+                  <label><input type="radio" name="optradio" value="environmentalJustice" required> Environmental Justice</label>
                 </div>
                 <!-- <div class="form-check">
                   <label class="custom-control custom checkbox">
@@ -282,7 +284,7 @@
               <h5 class="mb-4">Submit your comments or questions below</h5>
               <div class="form-group">
 
-                <textarea id= "questionComment" rows="5" cols="50"></textarea>
+                <textarea class="questionArea" name= "question" id= "questionComment" rows="5" cols="37" required></textarea>
               </div>
               <div class="form-group">
                 <button  type="submit" id= "submitbtn" class="btn btn-primary">Submit</button>

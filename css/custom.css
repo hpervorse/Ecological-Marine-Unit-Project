@@ -14,12 +14,7 @@ button.alternatives {
   border: none;
 }
 
-a:link {
-  color: blue;
-}
-a:visited {
-  color: grey;
-}
+
 
 #flashMessage {
     color: white;
@@ -29,4 +24,38 @@ a:visited {
     display: block;
     width: calc(100% - 100px);
     margin-bottom: 40px;
+}
+
+#altpop {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 769px) {
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .jumbotron {
+    width: 100%
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+
+  }
+  .titletext {
+    font-size: 40px;
+  }
+  .titletext2 {
+    font-size: 15px;
+  }
+  .formmobile {
+    width: 95%
+  }
+  .questionArea {
+    rows: 4;
+    cols: 40;
+  }
 }
